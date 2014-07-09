@@ -1,0 +1,9 @@
+users:
+    type: rest #for yaml loader
+    prefix: / #giving version or routes to rest api
+    resource: "TestRestApiBundle:User"
+    name_prefix: api_ #naming rest api
+
+api_default:
+    path: /
+    defaults: { _controller: TestRestApiBundle:Default:index }

@@ -1,0 +1,17 @@
+Test\RestApiBundle\Entity\User:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: 255
+        userpasswod:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

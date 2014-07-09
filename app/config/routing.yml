@@ -1,0 +1,4 @@
+TestRestApiBundle:
+    type: rest #for yaml loader
+    prefix: /api
+    resource: "@TestRestApiBundle/Resources/config/routing.yml"
